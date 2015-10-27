@@ -1,4 +1,4 @@
-INFM 600
+<h1>INFM 600</h1>
 These are 3 datasets created for the INFM 600 course Information Organization assignment.
 
 Version
