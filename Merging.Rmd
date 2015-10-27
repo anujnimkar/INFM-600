@@ -1,0 +1,35 @@
+---
+title: "Merging_data_frame"
+author: "Anuj Nimkar"
+date: "Saturday, October 24, 2015"
+output: html_document
+---
+
+# Reading the data into data frames
+```{r}
+
+historicSites_data <- read.csv('H:/Study and Work/Sem 4 Fall 2015 Courses/INFM 600/Info-Organization/Historic_Sites_View.csv')
+
+historic_districts_data <- read.csv('H:/Study and Work/Sem 4 Fall 2015 Courses/INFM 600/Info-Organization/Historic_Districts.csv')
+
+historic_mileMarkers_data <- read.csv('H:/Study and Work/Sem 4 Fall 2015 Courses/INFM 600/Info-Organization/Historic_Mile_Markers.csv')
+ 
+```
+
+
+# Merging the existing data frames and writing the results into a new CSV
+```{r}
+merged_data_Miles_Districts <- merge(historic_mileMarkers_data,historic_districts_data,all=TRUE,sort = FALSE)
+
+write.csv(merged_data_Miles_Districts, file = "H:/Study and Work/Sem 4 Fall 2015 Courses/INFM 600/Info-Organization/merged_data_miles_districts.csv")
+
+merged_data_Sites_Districts <- merge(historicSites_data,historic_districts_data,all=TRUE,sort = FALSE)
+
+write.csv(merged_data_Sites_Districts, file = "H:/Study and Work/Sem 4 Fall 2015 Courses/INFM 600/Info-Organization/merged_data_sites_districts.csv")
+ 
+```
+
+
+
+
+
