@@ -33,14 +33,14 @@ If we were to combine Historic_Mile_Makers.csv and Historic_Districts.csv files 
 we could answer the following question,<br>
         1. What is the distribution of the mile makers across different districts?<br>
         Such a question can be best answered using a geo-spatial data visualization which could be attained using                    Tableau.<br>
-Reference : Creative Commons Attribution 4.0 International License.merged_data_miles_districts.csv[Data file]Retrieved from  https://data.howardcountymd.gov/
+Reference : Anuj Nimkar.merged_data_miles_districts.csv[Data file]Retrieved from  https://data.howardcountymd.gov/
         <br><br>
 
 If we were to combine the Historic_Districts.csv and Historic_Sites_View.csv then, based on the resulting dataset, we could 
 answer the following question,<br>
         1. What is the distribution of the historic sites across different districts?<br>
         Such a question can also be answered using a geo-spatial visualization which could be attained using Tableau.<br>
-Reference : Creative Commons Attribution 4.0 International License.merged_data_sites_districts.csv[Data file]Retrieved from  https://data.howardcountymd.gov/
+Reference : Anuj Nimkar.merged_data_sites_districts.csv[Data file]Retrieved from  https://data.howardcountymd.gov/
         
 
 
