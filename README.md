@@ -40,7 +40,19 @@ If we were to combine the Historic_Districts.csv and Historic_Sites_View.csv the
 answer the following question,<br>
         1. What is the distribution of the historic sites across different districts?<br>
         Such a question can also be answered using a geo-spatial visualization which could be attained using Tableau.<br>
-Reference : Anuj Nimkar.merged_data_sites_districts.csv[Data file]Retrieved from  https://data.howardcountymd.gov/
+Reference : Anuj Nimkar.merged_data_sites_districts.csv[Data file]Retrieved from  https://data.howardcountymd.gov/<br><br>
+
+<h1>License</h1>
+The data in this repository is distributed under the Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/).<br><br>
+The data contained in the INFM-600.7z was distributed with the permission of Howard County, Maryland.<br><br>
+The data is made available for non-commercial use. Those interested in using the data in a commercial context should contact Howard County, Maryland : https://data.howardcountymd.gov/ 
+
+
+
+
+
+
+
         
 
 
